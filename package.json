@@ -1,0 +1,13 @@
+{
+  "name": "gt-seat-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test.mjs && node test.mjs fixtures/enrollment-30595.html",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.158.0"
+  }
+}
